@@ -59,7 +59,7 @@ def predict():
         # Pass the prediction and description to the result.html template
         return render_template('result.html', prediction=predicted_class, description=class_description)
 
-    return render_template('analyze.html')
+    return render_template('Analyze.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
